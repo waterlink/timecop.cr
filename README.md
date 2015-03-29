@@ -12,6 +12,19 @@ deps do
 end
 ```
 
+## Already implemented and usable
+
+- `Timecop.freeze` (normal and block forms)
+- `Timecop.reset`
+
+## TODO
+
+- [x] `Timecop.freeze`
+- [x] `Timecop.reset`
+- [ ] `Timecop.travel`
+- [ ] `Timecop.scale`
+- [ ] Support nested block forms of scale, freeze and travel
+
 ## Usage
 
 ```crystal
@@ -43,8 +56,6 @@ end
 ```
 
 ### Time freeze
-
-*NOTE: Not implemented yet*
 
 ```crystal
 Timecop.freeze(2.days.ago)
@@ -91,8 +102,6 @@ end
 ```
 
 ### Resetting normal time flow
-
-*NOTE: Not implemented yet*
 
 ```crystal
 Timecop.reset
