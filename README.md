@@ -1,5 +1,7 @@
 # timecop.cr
 
+[![Build Status](https://travis-ci.org/waterlink/timecop.cr.svg?branch=master)](https://travis-ci.org/waterlink/timecop.cr)
+
 Mock with `Time.now` with the power of time travel, time freeze and time scale.
 
 ## Installation
