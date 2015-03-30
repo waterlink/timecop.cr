@@ -4,6 +4,8 @@
 
 Mock with `Time.now` with the power of time travel, time freeze and time scale.
 
+Inspired by [timecop ruby gem](https://github.com/travisjeffery/timecop)
+
 ## Installation
 
 Add it to `Projectfile`
