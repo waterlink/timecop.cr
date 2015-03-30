@@ -4,7 +4,7 @@ module Timecop
   extend self
 
   def now
-    @@frozen || Time.new
+    @@frozen || Time.now
   end
 
   def freeze(at)
@@ -19,5 +19,9 @@ module Timecop
 
   def reset
     @@frozen = nil
+  end
+
+  def active?
+    @@frozen && true
   end
 end
