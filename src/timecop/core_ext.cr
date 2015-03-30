@@ -1,6 +1,6 @@
 # To get .new defined by compiler, so that it is possible to use
 # `#previous_def`
-Time.new
+typeof(Time.new)
 
 struct Time
   def self.new
