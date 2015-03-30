@@ -113,7 +113,7 @@ Timecop.reset
 
 ## Development
 
-Just use normal `crystal spec` TDD cycle.
+To run specs run `bin/spec`
 
 ## Contributing
 
