@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+crystal run src/timecop_example.cr &&
+  crystal spec

@@ -7,4 +7,4 @@ install: |
   sudo apt-get install crystal
 
 script:
-  - crystal run src/timecop_example.cr && crystal spec
+  - bin/spec
