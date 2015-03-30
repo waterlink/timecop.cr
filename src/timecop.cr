@@ -4,11 +4,7 @@ module Timecop
   extend self
 
   def now
-    if @@frozen
-      @@frozen.not_nil!
-    else
-      Time.new
-    end
+    @@frozen || Time.new
   end
 
   def freeze(at)
@@ -17,7 +13,7 @@ module Timecop
 
   def freeze(at, &blk)
     @@frozen = at
-    blk.call
+    yield
     reset
   end
 
