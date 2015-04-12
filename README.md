@@ -125,4 +125,5 @@ To run specs run `bin/spec`
 
 ## Contributors
 
-- [waterlink](https://github.com/waterlink) Oleksii Fedorov - creator
+- [waterlink](https://github.com/waterlink) Oleksii Fedorov - creator, maintainer
+- [asterite](https://github.com/asterite) Ary Borenszweig
