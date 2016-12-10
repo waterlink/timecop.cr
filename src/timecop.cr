@@ -3,6 +3,8 @@ require "./timecop/*"
 module Timecop
   extend self
 
+  @@frozen = Time.now
+
   def now
     @@frozen || Time.now
   end
