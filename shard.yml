@@ -1,8 +1,7 @@
+--- 
 name: timecop
-version: 0.0.3
-
-authors:
+version: 0.1.0
+authors: 
   - Oleksii Fedorov
   - Ary Borenszweig
-
 license: MIT
