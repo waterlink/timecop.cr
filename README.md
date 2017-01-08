@@ -8,12 +8,12 @@ Inspired by [timecop ruby gem](https://github.com/travisjeffery/timecop)
 
 ## Installation
 
-Add it to `Projectfile`
+Add this to your application's `shard.yml`:
 
-```crystal
-deps do
-  github "waterlink/timecop.cr"
-end
+```yaml
+development_dependencies:
+  timecop:
+    github: waterlink/timecop.cr
 ```
 
 ## Already implemented and usable
