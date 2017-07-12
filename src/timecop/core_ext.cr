@@ -11,4 +11,8 @@ struct Time
   def self.now
     new
   end
+
+  def self.utc_now
+    new.to_utc
+  end
 end
