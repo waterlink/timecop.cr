@@ -13,6 +13,6 @@ struct Time
   end
 
   def self.utc_now
-    new.to_utc
+    new
   end
 end
